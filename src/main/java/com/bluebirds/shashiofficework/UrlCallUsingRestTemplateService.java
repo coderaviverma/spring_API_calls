@@ -11,10 +11,10 @@ import org.springframework.web.client.RestTemplate;
 import java.util.Arrays;
 
 @Service
-public class UrlDemoService {
+public class UrlCallUsingRestTemplateService {
 
     @Autowired
-    public UrlDemoService(RestTemplate restTemplate) {
+    public UrlCallUsingRestTemplateService(RestTemplate restTemplate) {
         this.restTemplate=restTemplate;
     }
 
